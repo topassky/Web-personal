@@ -1,22 +1,28 @@
 {% extends "core/base.html" %}
 {% block title %}Acerca de {% endblock %}
 
-{% block blackgroud %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+{% block blackgroud %}{% load static %}{% static 'core/img/about-b.jpg' %}{% endblock %}
 
 {% block header %} 
 <h1>Acerca de</h1>
-        <span class="subheading">Biografía</span>
+        <span class="subheading">PERFIL PROFESIONAL</span>
  {% endblock %}
 
 {% block content %}
 <div class="row"> 
 <div class="col-lg-3 col-md-4 offset-lg-1">
-<img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+<img class="img-fluid avatar" src="{% static 'core/img/avatar.png' %}" alt="">
 </div>
 <div class="col-lg-7 col-md-8">
-<h2 class="section-heading">Juan Pérez</h2>   
-<p>Nacido en... lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit...</p>
+<h2 class="section-heading">Juan Felipe Orozco Cortés</h2>   
+<p>Ingeniero de telecomunicaciones con experiencia en manejo de grandes
+volúmenes de información por medio de python y android studio, tengo
+experiencia docencia en la universidad de Antioquia, lo cual me ha
+permitido orientar los cursos de matematicas operativas, calculo y
+estadística dentro de la Facultad de salud pública. Cuento con amplia
+vocación de servicio y siempre con disposición de aprender de manera
+continua nuevas tecnologías. Me apasiona la inteligencia artificial y
+procesos de automatización que tenga que ver con la misma.</p>
 </div>
 </div>
 {% endblock %}
